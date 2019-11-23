@@ -11,6 +11,8 @@ namespace Bookstore.Model
         public int Id { get; set; }
         [Reguired]
         public string Name { get; set; }
+
+
         public string Author { get; set }
     }
 }
